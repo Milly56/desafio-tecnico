@@ -100,8 +100,8 @@ O projeto está dividido em duas partes independentes:
 
 Os relatórios de execução (`Api/docs/report.html` e `Web/docs/index.html`) foram publicados no **GitHub Pages**:
 
-- 🔗 Relatório da API: `https://<seu-usuario>.github.io/<repositorio>/Api/docs/report.html`
-- 🔗 Relatório do Frontend: `https://<seu-usuario>.github.io/<repositorio>/Web/docs/index.html`
+- 🔗 Relatório da API: `https://milly56.github.io/desafio-tecnico/Api/docs/report.html`
+- 🔗 Relatório do Frontend: `https://milly56.github.io/desafio-tecnico/Web/docs/index.html`
 
 ## 🔌 Api - Testes de Pet Shop
 
@@ -131,7 +131,7 @@ Validação das operações básicas de Pets na API pública Swagger Petstore.
 4. Selecione o environment **env**
 5. Execute a collection via **Collection Runner**, respeitando a ordem: REQ-01 → REQ-02 → REQ-03 → REQ-04 (REQ-02 e REQ-04 dependem do `petId` gerado no REQ-01)
 
-> ℹ️ A API [Swagger Petstore](https://petstore.swagger.io/v2) é pública e de demonstração — não é necessário autenticação (login/token) para executar as requisições.
+> ℹ️ A API [Swagger Petstore](https://petstore.swagger.io/) é pública e de demonstração — não é necessário autenticação (login/token) para executar as requisições.
 
 ### Tecnologias utilizadas
 
