@@ -16,7 +16,7 @@ Desafio técnico de QA cobrindo duas frentes de automação de testes: validaç�
 
 O projeto está dividido em duas partes independentes:
 
-1. **Api** - a equipe de desenvolvimento está construindo o backend de um sistema de gestão de Pet Shops. A API já está publicada em ambiente de **staging** ([Swagger Petstore](https://petstore.swagger.io/v2)), e esta frente cobre a validação das operações básicas de **Pets**.
+1. **Api** - a equipe de desenvolvimento está construindo o backend de um sistema de gestão de Pet Shops. A API já está publicada em ambiente de **staging** ([Swagger Petstore](https://petstore.swagger.io/)), e esta frente cobre a validação das operações básicas de **Pets**.
 2. **Web** - o time está validando a seção "História" do site institucional [Phoebus](https://www.phoebus.com.br/), garantindo que os usuários possam navegar pela linha do tempo e que o ano exibido esteja sempre correto.
 
 ## 📁 Estrutura do projeto
@@ -182,7 +182,9 @@ Os prints de cada execução ficam salvos em `Web/evidencias/`, e o relatório H
 
 O plano de teste completo, cobrindo as duas frentes (API e Frontend) com casos de teste, critérios de aceite e ferramentas utilizadas, está disponível em [`Plano-teste.md`](./Plano-teste.md).
 
-## 👥 Autora
+## 👥 Contribuidores
+
+Agradecemos às seguintes pessoas que contribuíram para este projeto:
 
 <table align="center">
   <tr>
