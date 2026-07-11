@@ -16,14 +16,14 @@
 
 ## 📑 Sumário
 
-- [1. Objetivo](#1-objetivo)
-- [2. Escopo](#2-escopo)
-- [3. Ambiente de testes](#3-ambiente-de-testes)
-- [4. Estratégia de teste](#4-estratégia-de-teste)
-- [5. Casos de teste - API (Pets)](#5-casos-de-teste---api-pets)
-- [6. Casos de teste - Frontend (Linha do tempo "História")](#6-casos-de-teste---frontend-linha-do-tempo-história)
-- [7. Critérios de aceite](#7-critérios-de-aceite)
-- [8. Ferramentas utilizadas](#8-ferramentas-utilizadas)
+1. [Objetivo](#1-objetivo)
+2. [Escopo](#2-escopo)
+3. [Ambiente de testes](#3-ambiente-de-testes)
+4. [Estratégia de teste](#4-estratégia-de-teste)
+5. [Casos de teste - API (Pets)](#5-casos-de-teste---api-pets)
+6. [Casos de teste - Frontend (Linha do tempo "História")](#6-casos-de-teste---frontend-linha-do-tempo-história)
+7. [Critérios de aceite](#7-critérios-de-aceite)
+8. [Ferramentas utilizadas](#8-ferramentas-utilizadas)
 
 ---
 
@@ -66,10 +66,11 @@ Este documento descreve o plano de teste para validação de duas frentes do des
 
 ## 4. Estratégia de teste
 
-- Os testes de API são executados via **Collection Runner** do Postman e/ou via linha de comando com **Newman**, respeitando a ordem de dependência entre as requests (REQ-02 e REQ-04 dependem do `petId` gerado em REQ-01).
-- Os testes de Frontend são automatizados com **Playwright**, simulando a navegação de um usuário real: acessar o site, ir até o menu "História", clicar em 3 anos distintos da linha do tempo e validar que o ano exibido no texto descritivo corresponde ao ano clicado.
-- Cada teste de frontend captura uma evidência em print (screenshot) automaticamente no momento da validação.
-- Ao final da execução, é gerado um relatório HTML consolidado (via HTML Reporter nativo do Playwright) com o passo a passo de cada teste e os respectivos prints anexados.
+- **API**: execução via **Collection Runner** do Postman e/ou linha de comando com **Newman**, respeitando a ordem de dependência entre as requests.
+- **Frontend**: automação end-to-end com **Playwright**, simulando a navegação de um usuário real pela linha do tempo.
+- Evidências (prints) e relatório HTML consolidado são gerados automaticamente a cada execução, em ambas as frentes.
+
+> O detalhamento de passos, pré-condições e resultados esperados de cada verificação está nas seções 5 e 6.
 
 ## 5. Casos de teste - API (Pets)
 
