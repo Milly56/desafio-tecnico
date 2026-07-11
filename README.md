@@ -182,9 +182,7 @@ Os prints de cada execução ficam salvos em `Web/evidencias/`, e o relatório H
 
 O plano de teste completo, cobrindo as duas frentes (API e Frontend) com casos de teste, critérios de aceite e ferramentas utilizadas, está disponível em [`Plano-teste.md`](./Plano-teste.md).
 
-## 👥 Contribuidores
-
-Agradecemos às seguintes pessoas que contribuíram para este projeto:
+## 👥 Autora
 
 <table align="center">
   <tr>
@@ -202,5 +200,5 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
 Este projeto está sob a licença **MIT**. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 <p align="center">
-  <i>Desenvolvido para fins acadêmicos</i>
+  <i>Desenvolvido para fins Desafio Técnico</i>
 </p>
